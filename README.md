@@ -1,19 +1,93 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# F1 Fan Counter
+
+![MIT License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Responsive](https://img.shields.io/badge/responsive-mobile%20%7C%20tablet-orange)
+
+A simple counter to track the number of F1 fans at events or gatherings.
+
+![Website Preview](preview.jpeg)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [How to Use](#how-to-use)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Overview
+
+This web application allows you to easily count the number of F1 fans and record previous counts. It features a simple user interface with an F1 theme and basic counting functionality.
+
+The site is fully responsive, providing an optimized experience for desktops, tablets, and mobile devices.
+
+## Features
+
+- Incremental counter with dedicated button
+- Functionality to save previous counts
+- F1-themed UI with thematic background
+- Responsive design
+
+## Technologies Used
+
+- HTML5 / CSS3
+- JavaScript
+- Vite (bundler)
+
+
+## Demo
+
+View the live demo [here](https://hometown.kevinngongang.dev/).
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/bakadja/passenger-counter-app.git
+cd passenger-counter-app
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm start
+
+# Build for production
+npm run build
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Project Structure
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```
+passenger-counter-app/
+├── index.html       # Main HTML structure 
+├── index.js         # Javascript counter logic
+├── index.css        # Styles and layout
+├── f1.jpg           # Background image
+└── 
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## How to Use
 
-Happy Coding!
+1. Click the "INCREMENT" button to count an additional fan
+2. Use the "SAVE" button to record the current count and reset the counter
+3. Previous counts are displayed at the bottom of the application
+
+
+## Contribution
+
+Contributions are welcome! To contribute:
+1. Fork the project
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -m 'Added a new feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
